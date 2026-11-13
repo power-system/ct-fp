@@ -4,7 +4,7 @@ version = 4
 
 [[package]]
 name = "ct-fp"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "ct-uint",
  "subtle",
@@ -12,9 +12,9 @@ dependencies = [
 
 [[package]]
 name = "ct-uint"
-version = "0.0.2"
+version = "0.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c87a510760352044c3604f0a46e32f4a87f510b210050ec4cd3184886721d5f1"
+checksum = "1f17b28eaa6b7fd9f8f698a901ee9d108fb7ad4690a7a372327b9adf92b3bb3a"
 dependencies = [
  "subtle",
 ]

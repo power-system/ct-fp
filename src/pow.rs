@@ -1,4 +1,4 @@
-use subtle::{Choice, ConditionallySelectable};
+use subtle::Choice;
 
 use crate::PrimeField;
 

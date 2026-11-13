@@ -1,6 +1,6 @@
 [package]
 name = "ct-fp"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2024"
 description = "Prime-field arithmetic trait and shared logic for constant-time cryptography"
 license = "MIT OR Apache-2.0"
@@ -8,5 +8,5 @@ repository = "https://github.com/power-system/ct-fp"
 readme = "README.md"
 
 [dependencies]
-ct-uint = { version = "0.0.2", default-features = false }
+ct-uint = { version = "0.0.3", default-features = false }
 subtle = { version = "2.6.1", default-features = false }
